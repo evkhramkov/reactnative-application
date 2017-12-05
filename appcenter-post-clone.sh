@@ -1,1 +1,3 @@
-echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > $HOME/.npmrc
+la
+echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ./.npmrc
+la
