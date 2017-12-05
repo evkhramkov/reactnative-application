@@ -1,4 +1,4 @@
 ls -la
-echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > $APPCENTER_SOURCE_DIRECTORY/.npmrc
+echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > $HOME/.npmrc
 ls -la
-cat $APPCENTER_SOURCE_DIRECTORY/.npmrc
+cat $HOME/.npmrc
