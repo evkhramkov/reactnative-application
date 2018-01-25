@@ -8,6 +8,7 @@
  */
 
 #import <UIKit/UIKit.h>
+#import <Segment-Amplitude/SEGAmplitudeIntegrationFactory.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
