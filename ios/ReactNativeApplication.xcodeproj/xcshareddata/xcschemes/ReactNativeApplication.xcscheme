@@ -28,8 +28,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F3F516A9F02FAB0FCFEEA33D2EC7E68"
-               BuildableName = "Pods_ReactNativeApplication.framework"
+               BlueprintIdentifier = "2BF738A030B81998B3BB9F009C7FBC90"
+               BuildableName = "libPods-ReactNativeApplication.a"
                BlueprintName = "Pods-ReactNativeApplication"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
@@ -56,23 +56,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "53D5D1ABE0CBAE234C0F06195B97CDF6"
-               BuildableName = "Segment_Amplitude.framework"
-               BlueprintName = "Segment-Amplitude"
-               ReferencedContainer = "container:Pods/Pods.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ReactNativeApplicationTests.xctest"
-               BlueprintName = "ReactNativeApplicationTests"
+               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+               BuildableName = "ReactNativeApplication.app"
+               BlueprintName = "ReactNativeApplication"
                ReferencedContainer = "container:ReactNativeApplication.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -85,16 +71,6 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ReactNativeApplicationTests.xctest"
-               BlueprintName = "ReactNativeApplicationTests"
-               ReferencedContainer = "container:ReactNativeApplication.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
