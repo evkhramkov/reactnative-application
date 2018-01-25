@@ -1,12 +1,19 @@
 PODS:
+  - Amplitude-iOS (4.0.4)
   - Analytics (3.6.9)
+  - Segment-Amplitude (2.0.0):
+    - Amplitude-iOS (~> 4.0)
+    - Analytics (~> 3.6)
 
 DEPENDENCIES:
   - Analytics
+  - Segment-Amplitude
 
 SPEC CHECKSUMS:
+  Amplitude-iOS: 2ad4d7270c99186236c1272a3a9425463b1ae1a7
   Analytics: 6541ce337e99d9f7a2240a8b3953940a7be5f998
+  Segment-Amplitude: bef43d0ec5c2986fe50c1e534e3d4db0171867f4
 
-PODFILE CHECKSUM: 4cee95c62049b69994d8bb6428059a8c9f8e5476
+PODFILE CHECKSUM: 52772039bbb387e3de2e8bef8341ff5497c3494f
 
 COCOAPODS: 1.4.0
