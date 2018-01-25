@@ -1,0 +1,6 @@
+framework module Pods_ReactNativeApplication {
+  umbrella header "Pods-ReactNativeApplication-umbrella.h"
+
+  export *
+  module * { export * }
+}
