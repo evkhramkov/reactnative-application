@@ -1,6 +1,6 @@
 curl -X POST \
-  https://api.github.com/repos/evkhramkov/reactnative-application/statuses/$BUILD_SOURCEVERSION \
-  -H 'Authorization: token $GITHUB_TOKEN' \
+  "https://api.github.com/repos/evkhramkov/reactnative-application/statuses/$BUILD_SOURCEVERSION" \
+  -H "Authorization: token $GITHUB_TOKEN" \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
   -d '{
