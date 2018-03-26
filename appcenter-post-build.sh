@@ -9,9 +9,9 @@ curl -X POST \
   -H "Authorization: token $GITHUB_TOKEN" \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
-  -d '{
-	"state": "$status",
-	"target_url": "https://example.com/build/status",
-	"description": "Build started",
-	"context": "continuous-integration/appcenter"
-}'
+  -d "{
+	\"state\": \"$status\",
+	\"target_url\": \"https://example.com/build/status\",
+	\"description\": \"Build started\",
+	\"context\": \"continuous-integration/appcenter\"
+}"
