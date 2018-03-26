@@ -1,7 +1,7 @@
-if [ "$Agent.JobStatus" == "Succeeded" ];  then
-   $status = "success"
+if [ "$AGENT_JOBSTATUS" == "Succeeded" ];  then
+   status="success"
 else
-   $status = "failure"
+   status="failure"
 fi
 
 curl -X POST \
