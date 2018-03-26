@@ -1,7 +1,9 @@
 if [ "$AGENT_JOBSTATUS" == "Succeeded" ];  then
    status="success"
+   description="Build succeeded"
 else
    status="failure"
+   description="Build failed"
 fi
 
 curl -X POST \
@@ -12,6 +14,6 @@ curl -X POST \
   -d "{
 	\"state\": \"$status\",
 	\"target_url\": \"https://example.com/build/status\",
-	\"description\": \"Build started\",
+	\"description\": \"$description\",
 	\"context\": \"continuous-integration/appcenter\"
 }"
