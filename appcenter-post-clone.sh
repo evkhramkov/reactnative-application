@@ -1,0 +1,3 @@
+nvm list
+
+node -v
