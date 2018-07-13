@@ -22,6 +22,7 @@ const instructions = Platform.select({
 type Props = {};
 export default class App extends Component<Props> {
   render() {
+    throw new Error("custom error");
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
